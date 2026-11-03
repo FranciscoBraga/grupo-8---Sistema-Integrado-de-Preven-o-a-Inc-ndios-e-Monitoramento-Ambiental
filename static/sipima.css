@@ -1,0 +1,6 @@
+.topo { background: darkred; color: red; padding: 20px; font-size: 22px }
+.coluna { float: left; width: 33%; height: 600px; overflow: scroll }
+.alarme { background: red; color: white; margin: 2px; animation: pisca 0.1s infinite }
+@keyframes pisca { 50% { background: yellow } }
+table { border-collapse: collapse }
+td { border: 1px solid }
